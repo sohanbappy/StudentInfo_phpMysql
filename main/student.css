@@ -1,0 +1,23 @@
+body{
+background-color:#cc99ff;
+text-align:center;
+background:#33ccff;
+}
+
+
+
+#submit{
+	
+    
+	background-color:#0000ff;
+}
+#view{
+	display:inline;
+	border:4px solid green;
+	border-radius:5px;
+	
+}
+form a:hover{
+	
+	color:yellow;
+}

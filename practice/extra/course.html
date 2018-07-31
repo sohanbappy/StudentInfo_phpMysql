@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+<title>
+Course Entry
+</title>
+<link rel="stylesheet" href="course.css" type="text/css"/>
+
+</head>
+<body>
+<h1>Welcome to Course_Entry Page</h1>
+
+<form action="cconnect.php" method="POST">
+
+
+
+<label>Course Code:</label>
+<input type="text" name="c_code" placeholder="enter course code"  required><br><br>
+<label>Course Name:</label>
+<input type="text" name="c_name" placeholder="enter course name" required><br><br>
+<label>Course Credit:</label>
+<input type="text" name="c_credit" placeholder="1-4" required><br><br>
+
+<label>Course Grade:</label>
+<select name="c_grade" >
+  <option value="#">--select grade--</option>
+  <option value="0">F</option>
+  <option value="1">D</option>
+  <option value="2">C</option>
+  <option value="3">B</option>
+  <option value="4">A</option>
+</select>
+<br>
+<br>
+
+
+
+
+ <input type="submit" value="Save" id="submit" /> <br><br>
+ 
+ <h1><a href="home.html"> Home </a></h1>
+
+ 
+ 
+</form>
+
+</body>
+</html>

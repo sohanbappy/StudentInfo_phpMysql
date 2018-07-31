@@ -1,0 +1,1 @@
+DB  should  be,,, result_db  ,,  student_info  ,, st_id(pr. key)
